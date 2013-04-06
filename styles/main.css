@@ -2,23 +2,50 @@ body {
 	background-image: url('http://imageshack.us/a/img339/5885/backgroundbn.jpg'); 
 } 
 
-#title { 
-	text-align: center; 
-} 
-
-#subtitle { 
-	text-align: center;
-}
-
 #albumart { 
 	height: 300px; 
 	width: 300px; 
 	margin-top: 10px;
+}
+
+#title { 
+	font-size: 100px;
+}
+
+#subtitle { 
+	font-size: 50px;
+}
+
+#sectiontitle { 
+	font-size: 40px;
+} 
+
+#description { 
+	font-size: 25px;
+	letter-spacing: 5px;
 }  
 
-header,
-section { 
-	background-color: #994668;
-	border: 1px solid black; 
-} 
+h1, 
+h2, 
+h3 { 
+	color: white;
+	letter-spacing: 10px;
+	text-align: center;
+	text-shadow: 3px 3px 3px #c8e7ec;
+}
+
+h1, 
+h2,
+h3,
+p
+{ 
+	font-family: 'Just Another Hand', cursive;
+}
+
+p { 
+	color: white;
+	letter-spacing: 10px;
+	text-shadow: 3px 3px 3px #c8e7ec;
+	line-height: 200%;
+}    
 
