@@ -2,8 +2,55 @@ body {
 	background-image: url('http://imageshack.us/a/img339/5885/backgroundbn.jpg'); 
 } 
 
+header { 
+	margin-bottom: 10px;
+} 
+
+nav { 
+	text-align: center;
+} 
+
+footer { 
+	width: 300px;
+	height: 150px;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-top: 30px;
+} 
+
 #albumart { 
 	height: 300px; 
+	width: 300px;
+	display: block;
+	clear: both;
+	margin-top: 50px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#bandcampbox { 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 75%;
+}
+
+#bandcamplink { 
+	text-align: center;
+}
+
+#oneway { 
+	display: block; 
+	width: 75%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#bandphoto { 
+	padding: 
+	height: 200px; 
 	width: 300px;
 	display: block; 
 	margin-left: auto; 
@@ -16,7 +63,7 @@ body {
 } 
 
 #title { 
-	font-size: 100px;
+	text-align: center; 
 }
 
 #subtitle { 
@@ -27,18 +74,60 @@ body {
 	font-size: 40px;
 } 
 
+#ftext { 
+	letter-spacing: 7px;
+} 
+
+#navitem {
+	font-size: 40px;
+	letter-spacing: 10px;
+	word-spacing: 50px;
+}
+
+#pushdown { 
+	display: block;
+	top: 20px;
+}
+
+.navsel { 
+	color: black;
+	text-shadow: 1px 1px 1px #DBDBDB;
+}
+
+.background { 
+	color: black;
+}
+
+.seperate { 
+	word-spacing: 20px;
+}
+
+.spacetoright { 
+	margin-right: 20px;
+} 
+
 #description { 
-	font-size: 25px;
+	font-size: 30px;
 	letter-spacing: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+	font-family: 'Port Lligat Sans', cursive;
+	color: #DBDBDB;
 }  
 
 h1, 
 h2, 
 h3 { 
-	color: #DBDBDB;
 	letter-spacing: 10px;
 	text-shadow: 2px 2px 2px #ADADAD;
-	line-height: 150%;
 }
 
 h1, 
@@ -47,13 +136,12 @@ h3,
 p, 
 a
 { 
-	font-family: 'Just Another Hand', cursive;
 	text-align: center;
 }
 
 p, 
 a { 
-	color: #DBDBDB;
+	font-size: 30px; 
 	letter-spacing: 10px;
 	text-shadow: 2px 2px 2px #ADADAD;
 	line-height: 200%;
@@ -61,8 +149,10 @@ a {
 
 a { 
 	text-decoration: none; 
+	letter-spacing: 5px;
 } 
 
 a:hover { 
+	color: #9c9c9c;
 	text-shadow: 2px 2px 2px black;
 } 

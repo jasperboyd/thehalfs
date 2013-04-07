@@ -8,10 +8,10 @@
 
 var guideColor = 'rgb(255,195,0)';
 var guideInnerColor = 'rgba(255,255,255, 0.91)';
-var guideOpacity = '0.618';
+var guideOpacity = '0';
 
 var switchColor = 'rgb(0,0,0)';
-var switchOpacity = '0.618';
+var switchOpacity = '0';
 
 var baseFontSize = 16;
 var baselineGridHeight = (24 / baseFontSize)+'em';
@@ -112,10 +112,10 @@ ender.domReady(function () {
     ';	
 
 /* 	Create guides */
-	for (i=0; i<=16; i++) {
-		ender('body').append(ender('<div class="ggs-guide ggs-'+i+'"><div></div></div>'));
-	};
-	ender('body').append(ender('<div id="ggs-baseline-container"></div>'));
+//	for (i=0; i<=16; i++) {
+//		ender('body').append(ender('<div class="ggs-guide ggs-'+i+'"><div></div></div>'));
+//	};
+//	ender('body').append(ender('<div id="ggs-baseline-container"></div>'));
 	
 /* 	Append CSS */
 	(function(d,u) {
