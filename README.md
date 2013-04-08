@@ -6,6 +6,8 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
 ##todo
 
     - SEO 
+    - ALL PAGES
+        - Partial scrolling script in jquery
     - ABOUT 
         - content 
     - PHOTOS
@@ -19,6 +21,9 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
     - Organization 
         - break down css by file 
             - organize in file (for tumblr)
+    - Transition JQuery
+        - Smooth effect
+            - scroll up then down
 
 ##future features
 
