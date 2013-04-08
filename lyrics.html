@@ -22,6 +22,8 @@
 		
 		<!-- Here's Golden Gridlet, the grid overlay script in all it's awesomeness. -->
 		<script src="scripts/GGS.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
 		
 		<!-- 
 			This script enables structural HTML5 elements in old IE.
@@ -38,10 +40,10 @@
 			<div class="wrapper">
 				<h1 id="title" class="gigantic">The Halfs</h1>
 				<nav> 
-					<a id="navitem" class="navsel" href="main.html"> Home </a> 
+					<a id="navitem" href="main.html"> Home </a> 
 					<a id="navitem" href="http://thehalfs.bandcamp.com" target="_blank"> Music </a> 
 					<a id="navitem" href="about.html"> About </a> 
-					<a id="navitem" href="lyrics.html"> Lyrics </a> 
+					<a id="navitem" class="navsel" href="lyrics.html"> Lyrics </a> 
 					<a id="navitem" href="shows.html"> Shows </a> 
 					<!--<a id="navitem" href="photos.html"> Photos </a>--> 
 					<a id="navitem" href="contact.html"> Contact </a> 
@@ -52,20 +54,204 @@
 		<!--ADD JQUERY TO HIDE / SHOW LYRICS--> 
 		<article id="oneway">
 					<section> 
-						<h3 id="sectiontitle">Songs</h3>
-						<h4 class="large">Shut Off The Fan!</h4>
+						<h3 id="albumtitle" class="huge">Shut Off The Fan!</h3>
 						<div class="padded">	
 							<ul> 
-								<li>One Road</li>
-								<li>Paper Bombs</li>
-								<li>Coming To</li>
-								<li>Apple S</li>
+								<li id="o_r" class="biglist">One Road</li>
+								<div id="o_r_l" class="initblank lyricblock">
+									<p  class="lyrics">
+										Get back I know your name,<br/>
+										And Im two scared to say the same,<br/>
+										I don't care what the others say,<br/>
+										There's no chance for me.<br/> 
+									</p>
+									<p  class="lyrics">
+										Stand back cause I don't know what I need<br/>
+										In fact I don't know what I mean,<br/> 
+										I'm getting back to what I used to be,<br/> 
+										On track and heading for the sea.
+									</p>
+									<p  class="lyrics">
+										<i>There's only one road out of this town,</i><br/> 
+										<i>There's only two lanes and they taunt you</i><br/>  
+										<i>On your way out.</i>   
+									</p>
+									<p  class="lyrics">	
+										I need to get away from the oceans, <br/>
+										From the open spaces, <br/>
+										It's not fair for you to act this way <br/>
+										When I look over my shoulder
+									</p>
+									<p  class="lyrics">	
+										Leave me here in peace,<br/> 
+										And don't be scared in the least,<br/> 
+										And don't feed those terrible beasts,<br/> 
+										That you've seen feasting in your dreams.
+									</p>
+									<p  class="lyrics">	
+										<i>There's only one road out of this town,</i><br/> 
+										<i>There's only two lanes and they taunt you</i><br/>  
+										<i>On your way out.</i>   
+									</p>
+									<p  class="lyrics">	
+										We don't want to talk about it. 
+									</p>
+									<p  class="lyrics">	
+										I'm not what I should be,<br/> 
+										I'm not what I could be,<br/> 
+										I'm not right but you can't see,<br/> 
+										By this light you can't read me. 
+									</p>
+									<p  class="lyrics">	
+										We don't want to talk about it. 
+									</p>
+									<p  class="lyrics">	
+										<i>There's only one road out of this town,</i><br/> 
+										<i>There's only two lanes and they taunt you</i><br/>  
+										<i>On your way out.</i>   
+									</p>
+								</div>
+								<li id="p_b" class="biglist">Paper Bombs</li>
+								<div id="p_b_l" class="initblank lyricblock">
+									<p class="lyrics">	
+										There's desperation in the way you speak to me,<br/> 
+										No motivation to get us to where we should be,<br/> 
+										We're traveling forward but we're not checking the signs,<br/> 
+										There's desperation in the way we treat our kind. 
+									</p>
+									<p class="lyrics">		
+										I'm hesitating cause I'm scared of what you'll say<br/>
+										I lost the youthful courageous wonder way,<br/>
+										And I stayed within the lines too scared to turn the page, <br/>
+										Looking at the glass and waiting for it to break.
+									</p>
+									<p class="lyrics">		
+										<i>Shadows falling over,<br/>
+										Shattered window empty frame,<br/>
+										You try to follow,<br/>
+										but the barrier always remains.</i> 
+									</p>
+									<p class="lyrics">		
+										There's nothing left that they can use to prove us wrong,<br/>
+										They tried their best but no we evade and now we're gone,<br/>
+										We slipped away with petty change and paper bombs,<br/>
+										We set them off.
+									</p>
+									<p class="lyrics">		
+										<i>Shadows falling over,<br/>
+										Shattered window empty frame,<br/>
+										You try to follow,<br/>
+										but the barrier always remains.</i>	
+									</p>
+								</div>
+								<li id="c_t" class="biglist">Coming To</li>
+								<div id="c_t_l" class="initblank lyricblock">
+									<p class="lyrics">		
+										<i>It's no kind hearted pasture,</i><br/> 
+										<i>I barely escaped capture,</i> <br/>
+										<i>and I'm far too lost to answer,</i><br/>  
+										<i>at all.</i> 
+									</p>
+									<p class="lyrics">		
+										Hey you I confess to being wreckless and now im found,<br/>
+										Please can you forgive me I don't want a history bringing me down,<br/> 
+										I know I got trouble I blame my brother who he hangs around,<br/>
+										We all need a turning point it never hurts to join and settle down.
+									</p>
+									<p class="lyrics">		
+										Hey you put your hands up you're under arrest,<br/> 
+										You're charged with disturbing my gentle rest,<br/> 
+										I was pondering on the end of days,<br/>
+										I was wandering through endless empty space.
+									</p>
+									<p class="lyrics">		
+										<i>It's no kind hearted pasture,</i><br/> 
+										<i>I barely escaped capture,</i> <br/> 
+										<i>and I'm far too lost to answer,</i><br/>  
+										<i>at all.</i> 
+									</p>
+									<p class="lyrics">		
+										The rivers going break, <br/>
+										The waters coming through, <br/>
+										The air is going to fill, <br/>
+										With smoke and shit perfume, <br/>
+										Our time is going to end, <br/>
+										No matter what we do, <br/>
+										I know what to say <br/>
+										what this is coming to. <br/>
+										yes I know what to say <br/>
+										what this is coming to. <br/>
+										yes I know what to say <br/>
+										what this is coming to.
+									</p>
+									<p class="lyrics">		
+										Oh you got danger in your eyes, <br/> 
+										I saw the diamonds that you carried <br/>
+										from your mothers drawer, <br/>
+									    and the socks that she wore, <br/>
+									    and I will never be the one to tell you <br/>
+									    I adore you,<br/>
+									    adore you, <br/>
+									    I adore you,<br/>  
+									    I do. 
+									</p>
+									<p class="lyrics">	 
+									    The rivers going break,<br/> 
+										The waters coming through,<br/> 
+										The air is going to fill,<br/> 
+										With smoke and shit perfume, <br/>
+										Our time is going to end, <br/>
+										No matter what we do, <br/>
+										I know what to say <br/>
+										what this is coming to.<br/>
+										yes I know what to say<br/>
+										what this is coming to.<br/> 
+										yes I know what to say<br/>
+										what this is coming to.
+									</p>
+								</div>
+								<li id="a_s" class="biglist">Apple S</li>
+								<div id="a_s_l" class="initblank lyricblock">
+									<p class="lyrics"> 
+										 Stay on the wild side,<br/>
+										 I don't want to know you at all tonight.<br/> 
+										 I don't want anything,<br/> 
+										 the color of your eyes is intoxicating blue.<br/> 
+										 I think I need to,<br/> 
+										 tell you,<br/> 
+										 I want to let you know,<br/> 
+										 you and I don't need to be nothing more tonight. 
+									</p>
+									<p class="lyrics"> 
+										I was alone in the most beautiful shade of red,<br/> 
+										The sky came, the image faded,<br/> 
+										the light was so strong,<br/> 
+										the light was so strong,<br/> 
+										the night was long.
+									</p>
+									<p class="lyrics">	
+										I don't want to go back tonight,<br/> 
+										knowing all about you,<br/> 
+										I can't let you go,<br/> 
+										I need to be there,<br/> 
+										when get old enough to look back and see,<br/> 
+										how I'm holding up on the side of you and your denials,<br/>
+										and I'll always make you smile if you want me to. 
+									</p>
+									<p class="lyrics">	
+										Looking at all the time that's past, <br/>
+										feels that we were part of some great blast, <br/>
+										firing through light, <br/>
+										taking on all our pride,<br/>
+										yes we're taking on all our pride.  
+									</p>
+								</div>
 							</ul>
 						</div>	
-						<h4 class="large">How Could You?</h4> 
+						<h3 id="albumtitle" class="huge">How Could You?</h3> 
 						<div class="padded"> 
 							<ul> 
-								<li>How Could You?</li> 
+								<li id="h_c" class="biglist">How Could You?</li> 
 							</ul> 
 						</div> 
 					</section>
