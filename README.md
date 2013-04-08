@@ -8,22 +8,26 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
     - SEO 
     - ABOUT 
         - content 
+        - style
     - NEWSLETTER (mailchimp)
         - style button
+        - customize confirmation email 
     - Organization 
         - break down css by file 
-            - organize in file (for tumblr)
+        - in file (for tumblr)
 
 ##future features
 
-    - Lyrics 
-        - postioning when opening lyrics
+    - BLOG 
+        - tumblr integration
     - ADD MUSIC PLAYER 
         - design and implement
     - PHOTOS
         - design layout
         - add content
             - Service? 
+    - Social Media Integration 
+        - Facebook 
 
 
 ##Credits
