@@ -26,6 +26,16 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('html, body').animate({ scrollTop: 100 }, 0);
+				
+				$maillistlink = $('#mailinglistlink'); 
+				$mailform = $('#mc_embed_signup');
+				$dissapear = $('.dissapear');
+				
+				$maillistlink.click(function(){
+					$dissapear.fadeOut(function(){
+						$mailform.fadeIn(300); 
+					});	
+				});
 			});
 		</script>
 		
@@ -42,7 +52,7 @@
 		
 		<header>
 			<div class="wrapper">
-				<h1 id="title" class="gigantic title">The Halfs</h1>
+				<h1 class="gigantic title">The Halfs</h1>
 				<nav> 
 					<a id="navitem" href="main.html"> Home </a> 
 					<a id="navitem" href="http://thehalfs.bandcamp.com" target="_blank"> Music </a> 
@@ -57,16 +67,43 @@
 		
 		<article>
 			<section class="wrapper">
+				<div class="dissapear"> 
 				<h3 class="sectiontitle">Contact Us</h3>
 				<p class="description">
 					<a class="spacetoright" href="mailto:thehalfs@gmail.com"> 
 						Email Us   
 					</a> 
 					<span class="seperate"> and </span>
-					<a href="listsignup"> 
+					<a id="mailinglistlink"> 
 						Join our mailing list!
 					</a> 
 				</p> 
+				</div> 
+				<!-- Begin MailChimp Signup Form -->
+					<div id="mc_embed_signup" class="initblank">
+					<form action="http://tumblr.us4.list-manage.com/subscribe/post?u=77d3c90b0f02193c2afa2d821&amp;id=4686a8cbe4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<div class="indicates-required"></div>
+					<div class="mc-field-group">
+						<label for="mce-EMAIL"><p class="large">Email Address</p></label>
+						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					</div>
+					<div class="mc-field-group input-group">
+    				<p class="medium">Email Format </p>
+    				<div class="divcenter">
+    				<ul class = inline>
+    					<li class="emailtype"><input type="radio" value="html" name="EMAILTYPE" id="mce-EMAILTYPE-0"><label for="mce-EMAILTYPE-0">html</label></li>
+						<li class="emailtype"><input type="radio" value="text" name="EMAILTYPE" id="mce-EMAILTYPE-1"><label for="mce-EMAILTYPE-1">text</label></li>
+					    <li class="emailtype"><input type="radio" value="mobile" name="EMAILTYPE" id="mce-EMAILTYPE-2"><label for="mce-EMAILTYPE-2">mobile</label></li>
+					</ul>
+					</div>
+					</div>
+					<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+					</div>
+					<!--End mc_embed_signup-->
 			</section>
 		</article>
 		
