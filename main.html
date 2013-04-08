@@ -22,6 +22,12 @@
 		
 		<!-- Here's Golden Gridlet, the grid overlay script in all it's awesomeness. -->
 		<script src="scripts/GGS.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('html, body').animate({ scrollTop: 100 }, 100);
+			});
+		</script>
 		
 		<!-- 
 			This script enables structural HTML5 elements in old IE.
@@ -36,7 +42,7 @@
 		
 		<header>
 			<div class="wrapper">
-				<h1 id="title" class="gigantic">The Halfs</h1>
+				<h1 class="gigantic title">The Halfs</h1>
 				<nav> 
 					<a id="navitem" class="navsel" href="main.html"> Home </a> 
 					<a id="navitem" href="http://thehalfs.bandcamp.com" target="_blank"> Music </a> 
@@ -51,8 +57,8 @@
 		
 		<article id="twoway">
 			<section class="wrapper">
-					<h3 id="sectiontitle">Shut Off The Fan!</h3>
-				<p id="description">
+				<h3 class="sectiontitle">Shut Off The Fan!</h3>
+				<p class="description">
 					<a href="http://thehalfs.bandcamp.com"> 
 						Download our new EP!
 					</a> 
@@ -60,13 +66,13 @@
 			</section>
 			<section class="wrapper">
 				<a href="http://thehalfs.bandcamp.com"> 
-					<img id="albumart" src="img/shutoff.jpg"> 
+					<img class="albumart" src="img/shutoff.jpg"> 
 				</a> 
 			</section>
 		</article>
 		
 		<footer> 
-			<h6 id="ftext"> All Rights Reserved The Halfs 2013</h6>
+			<h6 class="ftext"> All Rights Reserved The Halfs 2013</h6>
 			<a id="selfpromotion" class="small" href="http://jasperboyd.com"> 
 				Designed by Jasper Boyd
 			</a> 

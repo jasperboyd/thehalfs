@@ -17,7 +17,7 @@ $(document).ready(function(){
 	var open = function ( to_open ) { 
 		if (sel === to_open) { 
 			sel = -1;
-			$('html, body').animate({ scrollTop: 0 }, 300);
+			$('html, body').animate({ scrollTop: 100 }, 300);
 		} else { 
 			sel = to_open; 
 			if (sel === 0) {

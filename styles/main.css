@@ -1,3 +1,4 @@
+/* ENTIRE SITE */
 body { 
 	background-image: url('http://imageshack.us/a/img339/5885/backgroundbn.jpg'); 
 	background-attachment: fixed; 
@@ -17,95 +18,6 @@ header #navitem {
 	word-spacing: 15px;
 }
 
-footer { 
-	width: 300px;
-	height: 150px;
-	clear: both;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto; 
-	padding-top: 30px;
-} 
-
-#albumart { 
-	height: 300px; 
-	width: 300px;
-	display: block;
-	clear: both;
-	margin-top: 50px;
-	margin-left: auto; 
-	margin-right: auto;
-	border: 2px solid black;	
-}
-
-#albumart:hover { 
-	border: 2px solid #ADADAD;	
-} 
-
-#albumtitle { 
-	letter-spacing: 1px;
-	line-height: 100%;
-}
-
-#oneway { 
-	display: block; 
-	width: 70%;
-	margin-left: auto; 
-	margin-right: auto;
-}
-
-#bandphoto { 
-	padding: 
-	height: 200px; 
-	width: 300px;
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-}
-
-
-
-#title { 
-	text-align: center; 
-	line-height: 100%;
-}
-
-#subtitle { 
-	font-size: 50px;
-}
-
-#sectiontitle { 
-	font-size: 40px;
-} 
-
-#description { 
-	font-size: 30px;
-	letter-spacing: 5px;
-}
-
-footer #bottomlink { 
-	text-align: center;
-	font-size: 10px; 
-	letter-spacing: 2px; 
-}
-
-footer #ftext { 
-	letter-spacing: 2px;
-} 
-
-#selfpromotion { 
-	font-size: 10px;
-	letter-spacing: 2px; 
-	text-shadow: 0px 0px 0px white;
-} 
-
-
-
-#pushdown { 
-	display: block;
-	top: 20px;
-}
-
 .navsel { 
 	color: black;
 	text-shadow: 1px 1px 1px #587dea;
@@ -116,34 +28,49 @@ footer #ftext {
 	text-shadow: 1px 1px 1px #587dea;
 }
 
-.background { 
-	color: black;
+footer { 
+	width: 300px;
+	height: 150px;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-top: 30px;
 }
 
-.biglist { 
-	font-size: 30px;
+footer .ftext { 
+	letter-spacing: 2px;
+} 
+
+#selfpromotion { 
+	font-size: 10px;
+	letter-spacing: 2px; 
+	text-shadow: 0px 0px 0px white;
+} 
+
+#pushdown { 
+	display: block;
+	top: 20px;
 }
+
+
+.title { 
+	text-align: center; 
+	line-height: 100%;
+}
+
+.sectiontitle { 
+	font-size: 40px;
+} 
+
+.description { 
+	font-size: 30px;
+	letter-spacing: 5px;
+} 
 
 .initblank { 
 	display: none; 
 } 
-
-.lyrics { 
-	font-size: 25px;
-	letter-spacing: 1px; 
-	word-spacing: 2px;
-	line-height: 200%;
-	margin-bottom: 20px;
-} 
-
-.lyricblock { 
-	margin-top: 20px;
-	margin-bottom: 20px;
-} 
-
-.lyricblock:hover { 
-	
-}
 
 .padded {
 	padding: 20px;
@@ -157,18 +84,14 @@ footer #ftext {
 	margin-right: 20px;
 } 
 
-ul { 
-	list-style-type: none;
+
+
+.background { 
+	color: black;
 }
 
-li { 
-	display: block;
-	letter-spacing: 2px;
-	height: 30px;
-}
-
-li:hover { 
-	color: #587dea;
+.biglist { 
+	font-size: 30px;
 }
 
 h1,
@@ -223,3 +146,84 @@ a:hover {
 	color: #587dea;
 	text-shadow: 2px 2px 2px black;
 } 
+
+/* ENTIRE SITE */ 
+
+/* HOME */
+.albumart { 
+	height: 225px; 
+	width: 225px;
+	display: block;
+	clear: both;
+	margin-top: 50px;
+	margin-left: auto; 
+	margin-right: auto;
+	border: 2px solid black;	
+}
+
+.albumart:hover { 
+	border: 2px solid #ADADAD;	
+} 
+
+#albumtitle { 
+	letter-spacing: 1px;
+	line-height: 100%;
+}
+
+#banner { 
+	line-height: 100%;
+}
+/* HOME */ 
+
+/* ABOUT & LYRICS */
+#oneway { 
+	display: block; 
+	width: 70%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+/* ABOUT & LYRICS */
+
+/* ABOUT */
+#bandphoto { 
+	padding: 
+	height: 200px; 
+	width: 300px;
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+/* ABOUT */
+
+/* LYRICS */
+.lyrics { 
+	font-size: 25px;
+	letter-spacing: 1px; 
+	word-spacing: 2px;
+	line-height: 200%;
+	margin-bottom: 20px;
+} 
+
+.lyricblock { 
+	margin-top: 20px;
+	margin-bottom: 20px;
+} 
+
+.lyricblock:hover { 
+	
+}
+
+ul { 
+	list-style-type: none;
+}
+
+li { 
+	display: block;
+	letter-spacing: 2px;
+	height: 30px;
+}
+
+li:hover { 
+	color: #587dea;
+}
+/* LYRICS */

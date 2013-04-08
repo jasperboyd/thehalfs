@@ -22,7 +22,12 @@
 		
 		<!-- Here's Golden Gridlet, the grid overlay script in all it's awesomeness. -->
 		<script src="scripts/GGS.js"></script>
-		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('html, body').animate({ scrollTop: 100 }, 100);
+			});
+		</script>
 		<!-- 
 			This script enables structural HTML5 elements in old IE.
 			http://code.google.com/p/html5shim/
