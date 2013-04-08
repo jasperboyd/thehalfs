@@ -12,13 +12,18 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
         - design layout
         - add content
             - Service? 
-    - LYRICS
-        - design layout
-        - JQUERY
-        - add content
     - NEWSLETTER 
         - Figure out service
     - ADD MUSIC PLAYER 
+        - design
+    - Organization 
+        - break down css by file 
+            - organize in file (for tumblr)
+
+##future features
+
+    - Lyrics 
+        - postioning when opening lyrics
 
 
 ##Credits
