@@ -6,18 +6,17 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
 ##todo
 
     - SEO 
-    - ABOUT 
-        - content 
-        - style
+        - all files
+    - LYRICS 
+        - how could you fill in
     - NEWSLETTER (mailchimp)
-        - style button
         - customize confirmation email 
-    - Organization 
-        - break down css by file 
-        - in file (for tumblr)
 
 ##future features
 
+    - ABOUT 
+        - content 
+        - style
     - BLOG 
         - tumblr integration
     - ADD MUSIC PLAYER 
@@ -30,6 +29,6 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
         - Facebook 
 
 
-##Credits
+##credits
 
 This project was made possible by the Golden Grid Project. 
