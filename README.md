@@ -5,8 +5,6 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
 
 ##todo
 
-    - SEO 
-        - all files
     - LYRICS 
         - how could you fill in
     - NEWSLETTER (mailchimp)
@@ -27,6 +25,8 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
             - Service? 
     - Social Media Integration 
         - Facebook 
+    - SEO 
+        - IMproved
 
 
 ##credits
