@@ -3,6 +3,12 @@ thehalfs
 
 Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
 
+URL: [thehalfs.tumblr.com](http://thehalfs.tumblr.com)
+
+Version: __1.0__ 
+
+---- 
+
 ##todo
 
     - LYRICS 
@@ -28,6 +34,17 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
     - SEO 
         - IMproved
 
+----
+
+##changelog 
+
+###1.0 
+    - Home
+    - Music  
+    - Lyrics 
+    - Shows 
+    - Contact
+        - Newsletter
 
 ##credits
 
