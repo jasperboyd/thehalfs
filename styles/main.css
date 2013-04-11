@@ -1,4 +1,8 @@
 /* ENTIRE SITE */
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 body { 
 	background-image: url('http://farm9.staticflickr.com/8120/8633965094_93290a7e9b_k.jpg'); 
 	background-attachment: fixed; 
