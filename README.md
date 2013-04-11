@@ -13,8 +13,8 @@ Version: __1.0__
 
     - LYRICS 
         - how could you fill in
-    - NEWSLETTER (mailchimp)
-        - customize confirmation email 
+    - Resetup tumblr to use a seperate style sheet 
+    - Reorganize files for ease of testing
 
 ##future features
 
