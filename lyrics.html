@@ -909,17 +909,22 @@ $(document).ready(function(){
 		} else { 
 			sel = to_open; 
 			if (sel === 0) {
-				$o_r_l.fadeToggle(300); 
+				$o_r_l.fadeToggle(300);
+				var position = 400; 
 			} else if (sel === 1) {
 				$p_b_l.fadeToggle(300); 
+				var position = 400;
 			} else if (sel === 2) {
 				$c_t_l.fadeToggle(300); 
+				var position = 400;
 			} else if (sel === 3) {
 				$a_s_l.fadeToggle(300); 
+				var position = 400;
 			} else {//4 
 				$h_c_y_l.fadeToggle(300);
+				var position = 860;
 			}//if/else
-			$('html, body').animate({ scrollTop: 500 }, 300);
+			$('html, body').animate({ scrollTop: position }, 300);
 		}//if/else 
 	}
 	
@@ -929,7 +934,7 @@ $(document).ready(function(){
 		} else if (sel === 0) {
 			$o_r_l.fadeToggle(300); 
 		} else if (sel === 1) {
-			$p_b_l.fadeToggle(300);  
+			$p_b_l.fadeToggle(300); 
 		} else if (sel === 2) {
 			$c_t_l.fadeToggle(300); 
 		} else if (sel === 3) {
@@ -992,8 +997,7 @@ $(document).ready(function(){
 			<div class="wrapper">
 				<h1 class="gigantic title">The Halfs</h1>
 				<nav> 
-					<a id="navitem" href="http://thehalfs.tumblr.com"> Home </a> 
-					<a id="navitem" href="http://thehalfs.bandcamp.com" target="_blank"> Music </a> 
+					<a id="navitem" href="http://thehalfs.tumblr.com"> Home </a>
 					<!--<a id="navitem" href="http://thehalfs.bandcamp.com/about"> About </a>--> 
 					<a id="navitem" class="navsel" href="http://thehalfs.tumblr.com/lyrics"> Lyrics </a> 
 					<a id="navitem" href="http://thehalfs.tumblr.com/shows"> Shows </a> 
@@ -1005,11 +1009,11 @@ $(document).ready(function(){
 		
 		<article id="oneway">
 					<section> 
-						<h3 id="albumtitle" class="huge hide">Shut Off The Fan!</h3>
-						<div class="padded hide">	
+						<h3 id="albumtitle" class="huge">Shut Off The Fan!</h3>
+						<div class="padded marginbottom">	
 							<ul> 
 								<li id="o_r" class="biglist">One Road</li>
-								<div id="o_r_l" class="initblank lyricblock>
+								<div id="o_r_l" class="initblank lyricblock">
 									<p  class="lyrics">
 										Get back I know your name,<br/>
 										And Im two scared to say the same,<br/>
@@ -1205,9 +1209,47 @@ $(document).ready(function(){
 								<li id="h_c_y" class="biglist">How Could You?</li> 
 								<div id="h_c_y_l" class="initblank lyricblock"> 
 									<p class="lyrics">
-										<i> How could you possibly, 
-											look at me this way, 
+										<i> How could you possibly, <br/>
+											look at me this way, <br/>
 											you are breaking me.</i>
+									</p>
+									<p class="lyrics">	
+											I'm asking the questions, <br/>
+											your choosing to lie, <br/>
+											and I'm falling for your disbelief<br/>
+											whenever you close you eyes<br/>
+											I see the beauty far away<br/>
+											and I think that the sky may <br/>
+											have collapsed upon the angels now and <br/>
+											I don't want to know the disguise<br/>
+											that you're using<br/>
+									</p>
+									<p class="lyrics">		
+											I'm tossing and turning<br/>
+											broken and burning up,<br/>
+											I'm truthful not honest, <br/>
+											I'm hopefuly and modest not, <br/>
+											but you're still breaking me. <br/>
+									</p>
+									<p class="lyrics">		
+											I don't want to be the last thought on your mind,<br/> 
+											We never left it well when we signed off,<br/> 
+											the violations in trust worthy tossed, <br/>
+									</p>
+									<p class="lyrics">		
+											I don't mind you being the one who hangs around,<br/>
+											this time I'd rather go hide underground, <br/>
+											and just the sky or your eyes I can't decipher lies <br/>
+											right now...
+									</p>
+									<p class="lyrics">		
+											<i> How could you possibly,<br/>
+											look at me at this way,<br/>
+											How could you possibly,<br/>
+											look at me at this way,<br/> 
+											How could you possibly,<br/>
+											look at me at this way,<br/>
+											are you are breaking me? </i>	
 									</p> 		
 									<!--FINISH THE LYRICS-->   
 								
