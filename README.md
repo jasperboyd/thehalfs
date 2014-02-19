@@ -5,30 +5,6 @@ Website for the Band [The Halfs](http://thehalfs.bandcamp.com)
 
 ##todo
 
-    - LYRICS 
-        - how could you fill in
-    - NEWSLETTER (mailchimp)
-        - customize confirmation email 
+    - REDO SITE
+    - <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,900italic|Quattrocento+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
 
-##future features
-
-    - ABOUT 
-        - content 
-        - style
-    - BLOG 
-        - tumblr integration
-    - ADD MUSIC PLAYER 
-        - design and implement
-    - PHOTOS
-        - design layout
-        - add content
-            - Service? 
-    - Social Media Integration 
-        - Facebook 
-    - SEO 
-        - IMproved
-
-
-##credits
-
-This project was made possible by the Golden Grid Project. 
